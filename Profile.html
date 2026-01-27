@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
+    <title>ABOUT ME</title>
     <style>
         * {
             margin: 0;
@@ -117,6 +117,26 @@
             font-size: 12px;
             border-top: 1px solid #e0e0e0;
         }
+        
+        .back-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 10px;
+        }
+        
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(30, 60, 114, 0.4);
+        }
     </style>
 </head>
 <body>
@@ -124,9 +144,9 @@
         <div class="header">
             <div class="profile-avatar"><img src="Profile Picture.jpg" alt="Profile Picture"></div>
             <div class="profile-name">Ogabi David</div>
-            <div class="profile-title">A Junior Mobile Developer specializing in Flutter, with experience building cross-platform mobile applications <br>
-                 and a solid foundation in web development using React. 
-                 <br> Background in Mechanical Engineering, bringing structured problem-solving, <br>
+            <div class="profile-title">A Junior Mobile Developer specializing in Flutter, with experience building cross-platform mobile applications
+                 and a solid foundation in web development using React. <br>
+                 Background in Mechanical Engineering, bringing structured problem-solving, <br>
                  system thinking, and design discipline into software development.</div>
         </div>
         
@@ -153,6 +173,7 @@
         </div>
         
         <div class="footer">
+            <a href="Webpage.html" class="back-button">← Back to Webpage</a>
             <p>&copy; 2026 My Professional Profile</p>
         </div>
     </div>
